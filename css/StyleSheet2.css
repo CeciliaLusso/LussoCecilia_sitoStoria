@@ -1,0 +1,740 @@
+* {
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+.clearfix {
+    clear:both;
+}
+
+#Home {
+    margin: 0px;
+    background-image: url("sfondi/storiasf.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Agri {
+    margin: 0px;
+    background-image: url("sfondi/agri_sfondo.webp");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Cresc {
+    margin: 0px;
+    background-image: url("sfondi/sfondo_cresc.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Approf {
+    margin: 0px;
+    background-image: url("sfondi/approf_sfondo.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Elettr {
+    margin: 0px;
+    background-image: url("sfondi/elettricita_sfondo.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Energia {
+    margin: 0px;
+    background-image: url("sfondi/idraulica_sfondo.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Fabbr {
+    margin: 0px;
+    background-image: url("sfondi/fabbrica_sfondo.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Imprend {
+    margin: 0px;
+    background-image: url("sfondi/imprenditori_sfondo.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Indus {
+    margin: 0px;
+    background-image: url("sfondi/fabbrica_sfondo.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Invenz {
+    margin: 0px;
+    background-image: url("sfondi/invenz_sfondo.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Locomot {
+    margin: 0px;
+    background-image: url("sfondi/locomotiva_sfondo.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Mono {
+    margin: 0px;
+    background-image: url("sfondi/monopolio_sfondo.webp");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Navig {
+    margin: 0px;
+    background-image: url("sfondi/navigazione_sfondo.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Vapore{
+    margin: 0px;
+    background-image: url("sfondi/locomotiva_sfondo.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+.header {
+    text-align: center;
+    background-color: rgb(230,204,179, 0.4);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+
+    .header img {
+        height: 50%;
+        width: 50%;
+    }
+
+.topnav {
+    
+    background-color: #6b0000;
+    overflow:hidden;
+    margin-bottom: 0px;
+}
+
+
+.topnav a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 25px 30px;
+    text-decoration: none;
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+
+
+.topnav a:hover {
+     background-color: #e6ccb3;
+    color: #6b0000;
+}
+
+.topnav ul li {
+    display: inline-block;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+
+.topnav ul {
+    list-style: none;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+    
+.cornice {
+    background-color:#6b0000;
+    padding: 0px;
+}
+
+.cornice img {
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.row {
+    display: flex;
+}
+
+    .column.side {
+        width: 20%;
+        padding: 0px;
+    }
+
+    .column.middle {
+        width: 60%;
+        background-color: #e6ccb3;
+        padding-left: 100px;
+        padding-right: 100px;
+        z-index: 1;
+    }
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .column.middle {
+        width: 100%;
+    }
+
+    .column.side {
+        width:0%;
+    }
+
+}
+
+
+        .column.middle a {
+            
+            text-decoration: none;
+            color: #6b0000;
+            font-weight: bold;
+            
+        }
+
+        .column.middle ul {
+            color: #6b0000;
+        }
+
+
+
+.indice {
+
+    margin-top: 0px;
+    position: relative;
+    left:10%;
+}
+
+
+.drop_btn {
+    resize: both;
+    max-width: 20%;
+    max-height: 20%;
+    color: #e7d8ca;
+    border: none;
+    cursor: pointer;
+    font-family: gta;
+    font-weight: bold;
+    padding-top:66px;
+    padding-bottom:66px;
+  
+}
+.drop_btn img{
+
+    max-width: 70%;
+    max-height: 70%;
+  
+}
+
+  .drop_content {
+    width: 70%;
+    height: auto;
+    display: none;
+    position: absolute;
+    background-color: #e6ccb3;
+    min-width: 140px;
+    z-index: 1;
+  }
+  
+  .drop_content a {
+    font-size: 20px;
+    padding-left: 3px;
+    padding-right:3px;
+    padding-top: 7px;
+    padding-bottom:10px;
+    color: #6b0000;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+}
+    
+
+  
+  .drop_content a:hover {background-color: #cab098;}
+  .indice:hover .drop_content {display: block;}
+
+
+
+h3 {
+    color: #6b0000;
+    font-weight: bold;
+    font-size: 170%;
+    margin-top:40px;
+    margin-bottom:10px;
+}
+
+
+
+h4 {
+    color: #6b0000;
+    font-weight: bold;
+    font-size: 150%;
+    margin-bottom :3px;
+    margin-top:5px;
+}
+
+
+
+h6 {
+    font-style: italic;
+    font-size: 100%;
+    margin-top: 0px;
+    font-weight: lighter;
+}
+
+
+
+p {
+    
+    font-size: 20px;
+    margin-top: 0px; 
+    text-align: justify;
+}
+
+
+b{
+    font-weight:bold;
+}
+
+
+span{
+    font-size: 20px;
+    color:#ae3636;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+
+span:hover{
+    color:#ae3636;
+    font-weight: bold;
+    text-decoration: underline;
+    background-color: rgba(203, 75, 75, 0.2);
+    border-radius: 5px;
+}
+
+
+text{
+    font-size: 20px;
+    color:#c98a14;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+text:hover{
+    color:#c98a14;
+    font-weight: bold;
+    text-decoration: underline;
+    background-color:rgba(240, 194, 110, 0.3);
+    border-radius: 5px;
+}
+
+
+
+button {
+    color:#c98a14;
+    font-weight: bold;
+    text-decoration: underline;
+    background: none;
+    border:none;
+    font-size: 20px;
+    padding:0px;
+    margin:0px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+
+.paginetta{
+    position: fixed;
+    top:30%;
+    float:left;
+    background-color: #e6ccb3;
+    width:17%;
+    z-index: 2;
+    box-sizing:content-box;
+    padding:10px;
+    display:none;
+    max-height: 60%;
+    overflow-y: scroll;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+
+}
+
+.paginetta p {
+    font-size:18px;
+}
+
+.paginetta button {
+    float:right;
+    background-color:#cab098;
+    padding-top:2px;
+    padding-bottom:2px;
+    padding-left:8px;
+    padding-right:8px;
+    border-radius: 18px;
+    color: #6b0000;
+    text-decoration: none;
+    font-family: "arial";
+}
+
+.paginetta button:hover {
+    background-color:rgb(107, 0, 0, 0.4);
+}
+
+.IM_A{
+    display: flex;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.IM_A img {
+    width:90%;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+
+  ::-webkit-scrollbar-track {
+    background:#cab098; 
+  }
+   
+
+  ::-webkit-scrollbar-thumb {
+    background:#6b0000; 
+    border-radius: 10px;
+  }
+  
+
+
+.spazio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container {
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.container p {
+    margin-top: 5px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+
+.img_sx {
+    float: left;
+    margin-right: 15px;
+    overflow: hidden;
+}
+
+
+.card_sx h4 {
+    margin-top: 0;
+    margin-bottom:0px;
+    text-align: left;
+}
+
+
+.img_dx {
+    float: right;
+    margin-left: 15px;
+    overflow: hidden;
+}
+
+
+.card_dx h4 {
+    margin-top: 0;
+    margin-bottom:0px;
+    text-align: left;
+}
+
+
+.centrata {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom:30px;
+    margin-top:20px;
+}
+
+.centrata img {
+    width:100%;
+
+}
+
+
+#imm_agricoltura {
+    height: auto;
+    max-width: 350px;
+}
+
+
+#imm_commercio {
+    height: auto;
+    max-width: 400px;
+}
+
+#imm_domicilio {
+    height: auto;
+    max-width: 300px;
+}
+
+#imm_navetta {
+    height: auto;
+    max-width: 300px;   
+}
+
+#imm_vapore {
+    height: auto;
+    max-width: 350px;   
+}
+
+#imm_fabb  {
+    height: auto;
+    max-width: 350px;   
+}
+
+#imm_miniere{
+    height: auto;
+    max-width: 300px;
+}
+
+#imm_nave{
+    height: auto;
+    max-width: 350px;
+}
+
+#imm_treno {
+    height: auto;
+    max-width: 350px;
+}
+
+#imm_volta {
+    max-height: 300px;
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#imm_benj {
+    max-height: 300px;
+    width: auto;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#imm_cresc {
+    height: auto;
+    max-width: 370px;
+}
+
+#imm_approf{
+    width:500px;
+    height:auto;
+}
+
+#imm_imprend{
+    max-width:400px;
+    height:auto;
+}
+
+#imm_rot-trienn{
+    max-width:350px;
+    height:auto;
+}
+
+#imm_rot-quadr {
+    max-width:350px;
+    height:auto;
+}
+
+#imm_cotone {
+    max-width:450px;
+    height:auto;
+}
+
+#imm_lavoisier{
+    max-width:300px;
+    height:auto;
+}
+
+#imm_leblanc{
+    max-width:280px;
+    height:auto;
+}
+
+#imm_schiavi{
+    max-width:400px;
+    height:auto;
+}
+
+#imm_navetta2 {
+    max-width:350px;
+    height:auto;
+}
+
+#imm_giannetta {
+    max-width:350px;
+    height:auto;
+}
+
+#imm_wf {
+    max-width:400px;
+    height:auto;
+}
+
+#imm_cottongin {
+    max-width:430px;
+    height:auto;
+}
+
+#imm_mappa{
+    max-width:350px;
+    height:auto;
+}
+
+#imm_trenovap{
+    max-width:450px;
+    height:auto;
+}
+
+#imm_mulino{
+    max-width:450px;
+    height:auto;
+}
+
+#imm_operai {
+    max-width:450px;
+    height:auto;
+}
+
+#imm_adam{
+    max-width:240px;
+    height:auto;
+}
+
+#imm_pila{
+    max-width:350px;
+    height:auto;
+}
+
+#imm_parafulmine{
+    max-width:400px;
+    height:auto;
+}
+
+#imm_macc-thomas{
+    max-width:400px;
+    height:auto;
+}
+
+#imm_macc-watt{
+    max-width:400px;
+    height:auto;
+}
+
+#imm_clermont{
+    max-width:350px;
+    height:auto;
+}
+
+.topp {
+    width: 7%;
+    position: fixed;
+    bottom: 7%;
+    right: 3%;
+    z-index: 1;
+    transition: width 0.5s;
+}    
+
+.topp:hover{
+    width:7.5%;
+
+}
+
+
+.bottom {
+    padding: 10px;
+    text-align: left;
+    background-color: #6b0000;
+    padding: 50px;
+    color:#e6ccb3;
+            
+    }
+
+.bottom h4 {
+    color:#e6ccb3;
+    font-weight: bold;
+    font-size: 160%;
+    margin-bottom :5px;
+    margin-top:7px;
+}
+
+.bottom a {
+    font-size:20px;
+    text-decoration: none;
+    color:#e6ccb3;
+    font-weight: normal;
+    
+}
